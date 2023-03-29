@@ -6,7 +6,7 @@ import logo from '../../assets/images/Logo.svg';
 const Header = () => {
     return (
         <nav className='header'>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className='header-logo'/>
             <div className='links'>
                 <a href="/order">Order</a>
                 <a href="/review">Order Review</a>
