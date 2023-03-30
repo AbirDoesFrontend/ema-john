@@ -1,0 +1,38 @@
+:root {
+    --color-one : #1C2B35;
+    --color-two : #2A414F;
+    --color-three : #0E161A;
+}
+
+.cart {
+    background-color: rgba(255, 153, 0, 0.3);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.cart h2 {
+    padding: 28px 45px;
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--color-one);
+}
+
+.order-info {
+    text-align: left;
+    padding-left: 26px;
+}
+
+.order-info p {
+    margin: 15px 0;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--color-two);
+}
+
+.order-info h6 {
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--color-three);
+    padding-bottom: 15px;
+}
